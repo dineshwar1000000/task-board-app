@@ -18,7 +18,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-foreground relative">
         <div className="bg-pattern" aria-hidden="true" />
-        {children}
+        <div className="relative z-10 flex flex-1 flex-col">
+          {children}
+        </div>
       </body>
     </html>
   );
