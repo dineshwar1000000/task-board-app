@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "TaskFlow — Visual Task Board",
   description:
     "A clean, drag-and-drop task board to organize your work into To Do, In Progress, and Done.",
+  icons: {
+    icon: "/work-order.png",
+    shortcut: "/work-order.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -1,0 +1,17 @@
+{
+  "name": "TaskFlow — Visual Task Board",
+  "short_name": "TaskFlow",
+  "description": "A clean, drag-and-drop task board to organize your work into To Do, In Progress, and Done.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/work-order.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
